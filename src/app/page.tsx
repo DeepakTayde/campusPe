@@ -11,6 +11,7 @@ import AppShowcase from '@/components/home/AppShowcase';
 import AppDownload from '@/components/home/AppDownload';
 import SupportCTA from '@/components/home/SupportCTA';
 import FinalCTA from '@/components/home/FinalCTA';
+import Footer from '@/components/layout/Footer';
 
 export default function HomePage() {
   return (
@@ -29,6 +30,7 @@ export default function HomePage() {
         <SupportCTA />
         <FinalCTA />
       </main>
+      <Footer />
     </>
   );
 }
