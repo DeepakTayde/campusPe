@@ -5,6 +5,7 @@ import TrustStats from '@/components/home/TrustStats';
 import PartnerLogos from '@/components/home/PartnerLogos';
 import OpportunityMatching from '@/components/home/OpportunityMatching';
 import ResumeUpload from '@/components/home/ResumeUpload';
+import CollegeDiscovery from '@/components/home/CollegeDiscovery';
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
         <PartnerLogos />
         <OpportunityMatching />
         <ResumeUpload />
+        <CollegeDiscovery />
       </main>
     </>
   );
