@@ -10,6 +10,7 @@ import EmployerHiring from '@/components/home/EmployerHiring';
 import AppShowcase from '@/components/home/AppShowcase';
 import AppDownload from '@/components/home/AppDownload';
 import SupportCTA from '@/components/home/SupportCTA';
+import FinalCTA from '@/components/home/FinalCTA';
 
 export default function HomePage() {
   return (
@@ -26,6 +27,7 @@ export default function HomePage() {
         <AppShowcase />
         <AppDownload />
         <SupportCTA />
+        <FinalCTA />
       </main>
     </>
   );
