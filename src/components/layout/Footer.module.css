@@ -47,27 +47,20 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--text-dark, #0B1A30);
-  letter-spacing: -0.02em;
   text-decoration: none;
+  transition: opacity var(--transition-fast, 150ms ease);
 }
 
-.logoAccent {
-  color: var(--primary-blue, #087FF5);
+.logo:hover {
+  opacity: 0.9;
 }
 
-.logoIcon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: var(--radius-md, 12px);
-  background-color: var(--primary-blue-light, #EBF4FF);
-  color: var(--primary-blue, #087FF5);
+.logoImage {
+  height: 48px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  display: block;
 }
 
 .missionStatement {

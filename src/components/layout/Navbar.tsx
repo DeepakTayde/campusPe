@@ -48,15 +48,11 @@ export default function Navbar() {
         <div className={styles.navContainer}>
           {/* Brand Logo */}
           <a href="#" className={styles.logo} aria-label="CampusPē Home">
-            <span className={styles.logoIcon}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-              </svg>
-            </span>
-            <span>
-              Campus<span className={styles.logoAccent}>Pē</span>
-            </span>
+            <img
+              src="/assets/logos/logo.png"
+              alt="CampusPē — Connecting Students, Institutions & Companies"
+              className={styles.logoImage}
+            />
           </a>
 
           {/* Desktop Navigation Links */}
@@ -266,8 +262,8 @@ export default function Navbar() {
                   {selectedRole === 'college'
                     ? 'Institution Name'
                     : selectedRole === 'employer'
-                    ? 'Company Name'
-                    : 'Full Name'}
+                      ? 'Company Name'
+                      : 'Full Name'}
                 </label>
                 <input
                   id="auth-name"
@@ -277,8 +273,8 @@ export default function Navbar() {
                     selectedRole === 'college'
                       ? 'e.g. RV College of Engineering'
                       : selectedRole === 'employer'
-                      ? 'e.g. Acme Tech Solutions'
-                      : 'e.g. Rahul Sharma'
+                        ? 'e.g. Acme Tech Solutions'
+                        : 'e.g. Rahul Sharma'
                   }
                   className={styles.input}
                 />

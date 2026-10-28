@@ -55,6 +55,11 @@
   --radius-2xl: 24px;
   --radius-full: 9999px;
 
+  /* Fonts */
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-roboto: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  --font-lora: 'Lora', Georgia, 'Times New Roman', serif;
+
   /* Container & Spacing */
   --container-max-width: 1220px;
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -69,7 +74,7 @@
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-roboto);
   color: var(--text-primary);
   background-color: var(--bg-page);
   scroll-behavior: smooth;
@@ -78,10 +83,32 @@ html {
 }
 
 body {
+  font-family: var(--font-roboto);
   min-height: 100vh;
   line-height: 1.5;
   overflow-x: hidden;
   background-color: var(--bg-page);
+}
+
+/* Typography Hierarchy across Inter, Roboto, and Lora */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-inter);
+}
+
+button, input, select, textarea {
+  font-family: var(--font-inter);
+}
+
+.fontLora {
+  font-family: var(--font-lora);
+}
+
+.fontInter {
+  font-family: var(--font-inter);
+}
+
+.fontRoboto {
+  font-family: var(--font-roboto);
 }
 
 a {

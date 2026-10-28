@@ -27,10 +27,12 @@ export default function HeroSection({ onSelectRole }: HeroSectionProps) {
         {/* Centered Hero Content */}
         <div className={styles.heroContent}>
           <div className={styles.topTag}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-            </svg>
-            <span>Campus Recruitment Platform</span>
+            <img
+              src="/assets/icons/ai_assistant_icon.png"
+              alt="ai assistant"
+              className={styles.logoImage}
+            />
+            <span>AI-Powered Campus Assistant</span>
           </div>
 
           <h1 className={styles.headline}>
