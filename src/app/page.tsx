@@ -7,6 +7,7 @@ import OpportunityMatching from '@/components/home/OpportunityMatching';
 import ResumeUpload from '@/components/home/ResumeUpload';
 import CollegeDiscovery from '@/components/home/CollegeDiscovery';
 import EmployerHiring from '@/components/home/EmployerHiring';
+import AppShowcase from '@/components/home/AppShowcase';
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
         <ResumeUpload />
         <CollegeDiscovery />
         <EmployerHiring />
+        <AppShowcase />
       </main>
     </>
   );
