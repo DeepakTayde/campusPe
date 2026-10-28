@@ -3,6 +3,7 @@ import Navbar from '@/components/layout/Navbar';
 import HeroSection from '@/components/home/HeroSection';
 import TrustStats from '@/components/home/TrustStats';
 import PartnerLogos from '@/components/home/PartnerLogos';
+import OpportunityMatching from '@/components/home/OpportunityMatching';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
         <HeroSection />
         <TrustStats />
         <PartnerLogos />
+        <OpportunityMatching />
       </main>
     </>
   );
