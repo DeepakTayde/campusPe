@@ -8,6 +8,7 @@ import ResumeUpload from '@/components/home/ResumeUpload';
 import CollegeDiscovery from '@/components/home/CollegeDiscovery';
 import EmployerHiring from '@/components/home/EmployerHiring';
 import AppShowcase from '@/components/home/AppShowcase';
+import AppDownload from '@/components/home/AppDownload';
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
         <CollegeDiscovery />
         <EmployerHiring />
         <AppShowcase />
+        <AppDownload />
       </main>
     </>
   );
