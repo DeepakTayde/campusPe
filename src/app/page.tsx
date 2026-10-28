@@ -9,6 +9,7 @@ import CollegeDiscovery from '@/components/home/CollegeDiscovery';
 import EmployerHiring from '@/components/home/EmployerHiring';
 import AppShowcase from '@/components/home/AppShowcase';
 import AppDownload from '@/components/home/AppDownload';
+import SupportCTA from '@/components/home/SupportCTA';
 
 export default function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default function HomePage() {
         <EmployerHiring />
         <AppShowcase />
         <AppDownload />
+        <SupportCTA />
       </main>
     </>
   );
