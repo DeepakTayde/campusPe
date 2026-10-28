@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '@/components/layout/Navbar';
 import HeroSection from '@/components/home/HeroSection';
+import TrustStats from '@/components/home/TrustStats';
+import PartnerLogos from '@/components/home/PartnerLogos';
 
 export default function HomePage() {
   return (
@@ -8,6 +10,8 @@ export default function HomePage() {
       <Navbar />
       <main>
         <HeroSection />
+        <TrustStats />
+        <PartnerLogos />
       </main>
     </>
   );
